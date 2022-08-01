@@ -79,6 +79,10 @@ const controlPagination = function(goToPage){
     paginationView.render(model.state.search)
 }
 
+const newFeature = function(){
+  console.log("Welcome to the application");
+}
+
 // event handlers: controls can be called by handlers too
 const controlServings = function(newServings){
   // Update the recipe servings (in state)
@@ -148,6 +152,7 @@ const init = function(){
   searchView.addHandlerSearch(controlSearchResult);
   paginationView.addHandlerClick(controlPagination); 
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature()
 }
 
 init()
