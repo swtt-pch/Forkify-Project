@@ -1,6 +1,5 @@
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from '../../img/icons.svg'; // Parcel 2
-import { Fraction } from 'fractional';
 
 // Exporting directly because there will be no instance of View, only child class
 export default class View {
